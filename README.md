@@ -1,25 +1,28 @@
-# Full-Tkinter-Sign-Up-and-Login-UI
+# Full Tkinter Sign-Up and Login UI
+![python image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+###### This project is a graphical user interface (GUI) for a sign-up and login system built using the Tkinter library in Python. It provides a fully functional login and registration system, complete with validation and error handling.
 
-This repository contains a simple Sign up and login page that can be used by anyone as a template.
+## Requirements
+To run this project, you will need to have Python 3 installed on your system. You can download Python from the official website: https://www.python.org/downloads/
 
-## Features
+This project also requires the following Python modules:
 
-- Login
-- Signup
-- Forgotten Password
-- Settings menu
-- Ability to change colour of all pages in the settings menu
-- One Time Passwords sent to email
-- Store inside a file (not encrypted)
+ - Tkinter
+ - CustomTkinter
+ - PIL
+ - Random
+ - OS
+These modules are included with most Python installations, so you shouldn't need to install them separately.
 
-## Installation
+## Usage
+To run the application, simply execute the main.py file in your Python interpreter:
 
-To use the UIs, follow these steps:
+python `main.py`
+This will open the main window of the application, where you can choose to either sign up or login.
 
-1. Clone this repository to your local machine.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Run the `login.py` file to start the UIs.
+When signing up, you will need to provide a username and password, which will be stored in a local file. The application will validate the input fields and display an error message if the data is invalid.
 
-## Contributing
+When logging in, you will need to provide the username and password that you used when signing up. The application will validate the input fields and check if the provided credentials match the ones stored in the file. If the credentials are correct, the user will be logged in and directed to the main dashboard.
 
-If you would like to contribute to this project, please fork this repository and submit a pull request with your changes.
+## Conclusion
+This project provides a simple yet functional sign-up and login system built with Tkinter in Python. You can use this project as a starting point for building more complex applications that require user authentication.
