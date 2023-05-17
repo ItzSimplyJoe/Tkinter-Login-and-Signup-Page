@@ -3,9 +3,7 @@
 ###### This project is a graphical user interface (GUI) for a sign-up and login system built using the Tkinter library in Python. It provides a fully functional login and registration system, complete with validation and error handling.
 
 ## Images
-![Login](Mainpage.png)
-![Signup](signup.png)
-![Settings](settings.png)
+![Login](Mainpage.png =250x250) ![Signup](signup.png =250x250) ![Settings](settings.png =250x250)
 
 
 ## Requirements
